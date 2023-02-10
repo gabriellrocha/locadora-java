@@ -1,8 +1,8 @@
 package model.services;
 
-public final class BrazilTaxServices {
+public  class BrazilTaxServices {
 	
-	public static double tax(double amount) {
+	public  double tax(double amount) {
 		if (amount <= 100) {
 			return amount * 0.20;
 		}
